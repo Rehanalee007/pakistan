@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+<style>
+    /* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* .product-image-wrapper {
+    position: relative;
+} */
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff5c5c;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.6em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.product-description {
+    font-size: 1em;
+    color: #666;
+    margin: 0 0 15px;
+    line-height: 1.4;
+}
+
+.product-price-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+
+
+
+</style>
+
+    \\
+    <script>
+        function myself(){
+            document.getElementById("demo").innerHTML="go and work hard you will get unlimited luxury watches houses cars and lot of more thing go word hard and smart work if you want to get this things";
+        }
+    </script>
+    <body>
+        <h1> demo java script in head</h1>
+
+       
+        <p id="demo">click and get watch</p>
+        <button type="button" onclick="myself()">click and get reward</button>
+        
+
+
+
+
+              <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="assets/image/54ec40ff683821aa63cb4f2caff4dbe7.jpg" alt="Product Image" class="product-image">
+                    <span class="badge">New</span>
+                </div>
+                <div class="product-details">
+                    <h2 class="product-title">Product Name</h2>
+                    <p class="product-description">A brief description that highlights key features of the product. Perfect for engaging potential customers.</p>
+                    <div class="product-price-rating">
+                        <span class="product-price">$29.99</span>
+                        <div class="rating">
+                            <span class="rating-star">&#9733;</span>
+                            <span class="rating-star">&#9733;</span>
+                            <span class="rating-star">&#9733;</span>
+                            <span class="rating-star">&#9733;</span>
+                            <span class="rating-star">&#9734;</span>
+                        </div>
+                    </div>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        
+
+
+    </body>
+    </html>
