@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Course Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+
+body {
+    position:fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; /* Gap between boxes */
+    width: 80%; /* Adjust the width as needed */
+}
+
+.course-box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100px; /* Fixed height for smaller boxes */
+}
+
+.course-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 60px; /* Reduced logo size */
+    height: auto;
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="course-box">
+            <img src="assets/images/cat3.png" alt="Course 1 Logo" class="logo">
+            <p>Course 1</p>
+        </div>
+        <div class="course-box">
+            <img src="logo2.png" alt="Course 2 Logo" class="logo">
+            <p>Course 2</p>
+        </div>
+        <div class="course-box">
+            <img src="logo3.png" alt="Course 3 Logo" class="logo">
+            <p>Course 3</p>
+        </div>
+        <div class="course-box">
+            <img src="logo4.png" alt="Course 4 Logo" class="logo">
+            <p>Course 4</p>
+        </div>
+        <div class="course-box">
+            <img src="logo5.png" alt="Course 5 Logo" class="logo">
+            <p>Course 5</p>
+        </div>
+        <div class="course-box">
+            <img src="logo6.png" alt="Course 6 Logo" class="logo">
+            <p>Course 6</p>
+        </div>
+        <div class="course-box">
+            <img src="logo7.png" alt="Course 7 Logo" class="logo">
+            <p>Course 7</p>
+        </div>
+        <div class="course-box">
+            <img src="logo8.png" alt="Course 8 Logo" class="logo">
+            <p>Course 8</p>
+        </div>
+    </div>
+</body>
+</html>
